@@ -1,5 +1,6 @@
 @import './components/HeaderComponent/headerStyles.css';
 @import './components/HeroComponent/heroStyles.css';
+@import './components/MenuComponent/menuStyles.css';
 
 *,
 *:before,
