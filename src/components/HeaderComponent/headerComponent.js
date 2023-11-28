@@ -1,5 +1,5 @@
 import './headerStyles.css';
-import Logo from '../assets/icons/logo-icon.svg';
+import Logo from '../../assets/icons/logo-icon.svg';
 
 function renderHeader() {
     const divContent = document.querySelector('#content');
