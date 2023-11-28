@@ -1,4 +1,4 @@
-import renderHeader from './HeaderComponent/headerComponent';
+import renderHeader from './components/HeaderComponent/headerComponent';
 
 import './main.css';
 
