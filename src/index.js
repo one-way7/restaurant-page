@@ -5,11 +5,33 @@ import renderContact from './components/contactComponent/contactComponent';
 
 import './main.css';
 
-function render() {
+(function render() {
     renderHeader();
-    // renderHero();
-    renderMenu();
-    // renderContact();
+    renderHero();
+})();
+
+function handleSwitchTabClick(e) {
+    e.preventDefault();
+
+    const dataTabContent = e.target.getAttribute('data-tab');
+    const domEl = e.currentTarget.nextElementSibling;
+
+    switch (dataTabContent) {
+        case 'hero':
+            domEl.remove();
+            renderHero();
+            break;
+        case 'menu':
+            domEl.remove();
+            renderMenu();
+            break;
+        case 'contact':
+            domEl.remove();
+            renderContact();
+            break;
+    }
 }
 
-render();
+document
+    .querySelector('.header')
+    .addEventListener('click', handleSwitchTabClick);
