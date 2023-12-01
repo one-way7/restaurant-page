@@ -15,10 +15,11 @@ function renderHeader() {
                                 alt="logo"
                                 width="50"
                                 height="50"
+                                data-tab="hero"
                         /></a>
                     </li>
-                    <li><a href="#">Menu</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#" data-tab="menu">Menu</a></li>
+                    <li><a href="#" data-tab="contact">Contact</a></li>
                 </ul>
             </nav>
         </header>
