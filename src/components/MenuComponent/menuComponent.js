@@ -5,7 +5,7 @@ function renderMenu() {
 
     const menuSection = `
             <section class="menu-section">
-                <div class="container">
+                <div class="menu-container">
                     <h2 class="menu-header">Our Menu</h2>
                     <div class="menu-content">
                         <div class="starters">
